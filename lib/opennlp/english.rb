@@ -6,6 +6,7 @@ module OpenNLP
     extend ModelPackagingHelpers::Tokenization
     extend ModelPackagingHelpers::PosTagging
     extend ModelPackagingHelpers::NamedEntityRecognition
+    extend ModelPackagingHelpers::Chunking
 
     def self.root
       File.expand_path('../../..', __FILE__)
