@@ -1,11 +1,11 @@
-require 'opennlp/models'
+require 'opennlp/model_packaging_helpers'
 
 module OpenNLP
   module English
-    extend Models::SentenceDetection
-    extend Models::Tokenization
-    extend Models::PosTagging
-    extend Models::NamedEntityRecognition
+    extend ModelPackagingHelpers::SentenceDetection
+    extend ModelPackagingHelpers::Tokenization
+    extend ModelPackagingHelpers::PosTagging
+    extend ModelPackagingHelpers::NamedEntityRecognition
 
     def self.root
       File.expand_path('../../..', __FILE__)
