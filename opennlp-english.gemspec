@@ -7,8 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.1.0"
   spec.authors       = ["Konstantin Tennhard"]
   spec.email         = ["me@t6d.de"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = %q{English model files for OpenNLP}
   spec.homepage      = ""
   spec.license       = "MIT"
   spec.platform      = "java"
